@@ -1,0 +1,86 @@
+body {
+	overflow: hidden;
+}
+#particles-js 
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: black;
+}
+.container {
+	translate: tranform(-50px, -50px);
+}
+.texts {
+	color: white;
+	font-size: 90px;
+	font-family: 'Aldrich', sans-serif;
+	position: absolute;
+	top: 26%;
+	left: 50%;
+	text-shadow: 0 0 10px snow,0 0 11px #cec7c7;
+}
+.who {
+	font-size: 40px;
+	top: 95%;
+}
+img {
+	width: 25%;
+	height: 50%;
+	border-radius: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: transform(-50px, -50px);
+	top: 27%;
+	left: 20%;
+	border: 3px solid white;
+}
+.links {
+	position: absolute;
+	top: 62%;
+	left: 53%;
+	letter-spacing: 9px;
+	font-size: 40px;	
+}
+a, i {
+	color: white;
+}
+a:hover {
+	text-shadow: 0 0 50px snow,
+				0 0 50px snow,
+				0 0 50px snow,
+				0 0 50px snow;
+}
+
+@media (max-width: 768px) {
+	img {
+		width: 70%;
+		height: 40%;
+		top: 15%;
+		left: 16%;
+	}
+	.texts {
+		top: 57%;
+		left: 25%;
+		font-size: 60px;	
+	}
+	.links {
+		font-size: 30px;
+		top: 80%;
+		left: 30%;
+	}
+	.who .auto-type {
+		top: 30px;
+		font-size: 25px;
+	}
+	.who {
+		position: relative;
+		bottom: 15px;
+	}
+	.who .auto-type span {
+		left: 21%;
+	}
+
+} 
+
