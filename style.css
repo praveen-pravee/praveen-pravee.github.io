@@ -23,6 +23,7 @@ body {
 .who {
 	font-size: 40px;
 	top: 95%;
+	text-shadow: 0 0 5px white;
 }
 img {
 	width: 25%;
@@ -55,31 +56,34 @@ a:hover {
 
 @media (max-width: 768px) {
 	img {
-		width: 70%;
+		width: 69%;
 		height: 40%;
-		top: 15%;
+		top: 13%;
 		left: 16%;
+		text-align: center;
+		align-items: center;
 	}
 	.texts {
-		top: 57%;
-		left: 25%;
+		top: 55%;
+		left: 18%;
+		right: 15%;
 		font-size: 60px;	
 	}
 	.links {
 		font-size: 30px;
 		top: 80%;
-		left: 30%;
+		left: 25%;
+		right: 25%;
 	}
 	.who .auto-type {
 		top: 30px;
+		left: 30%;
 		font-size: 25px;
 	}
 	.who {
 		position: relative;
-		bottom: 15px;
-	}
-	.who .auto-type span {
-		left: 21%;
+		bottom: 10px;
+		left:10%;
 	}
 
 } 
