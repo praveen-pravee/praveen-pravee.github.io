@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f8ff;
+
+}
+.quote-box {
+  width: 90%;
+  height: 80vh;
+
+  position: relative;
+  top: 60px;
+  margin: 0 auto;
+
+  background: linear-gradient(11deg, #eee, #ffe4c4, #fddde6);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 19px;
+  border: 3px solid #f0f8ff;
+  font-size: 6rem;
+
+} 
+
+@media screen and (max-width: 700px) {
+  .quote-box {
+    font-size: 2.5rem;
+  }
+}
