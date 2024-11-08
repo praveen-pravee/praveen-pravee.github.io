@@ -27,7 +27,7 @@ class LongestPalidromicSubstring {
   return s.substring(start, end + 1);
 }
   
-  public ExpandFromMiddle(String s, int left, int right) {
+  public int ExpandFromMiddle(String s, int left, int right) {
     if (s == null || left > right) return 0;
   
     while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
