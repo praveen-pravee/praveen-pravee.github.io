@@ -10,21 +10,16 @@ body {
 .quote-box {
   width: 90%;
   height: 80vh;
-
   position: relative;
   top: 60px;
   margin: 0 auto;
-
   background: linear-gradient(11deg, #eee, #ffe4c4, #fddde6);
-
   text-align: center;
-
   display: flex;
   flex-direction: column;
   gap: 5px;
   align-items: center;
   justify-content: center;
-
   border-radius: 19px;
   border: 3px solid #f0f8ff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3s);
@@ -32,11 +27,10 @@ body {
 .quote-box > p {
   font-size: 6rem;
 }
-a {
+.quote-box > a {
   color: black;
   text-decoration: none;
   font-size: 1em;
-  
   position: absolute;
   bottom: 3%;
 }
