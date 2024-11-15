@@ -18,6 +18,7 @@ body {
   background: linear-gradient(11deg, #eee, #ffe4c4, #fddde6);
 
   text-align: center;
+
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -26,10 +27,24 @@ body {
 
   border-radius: 19px;
   border: 3px solid #f0f8ff;
-  font-size: 6rem;
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3s);
 } 
-
+.quote-box > p {
+  font-size: 6rem;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 3%;
+}
+a:hover {
+  color: ;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: grey;
+}
 @media screen and (max-width: 700px) {
   .quote-box {
     font-size: 2.5rem;
